@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Generator</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-reboot.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="container header__container">
+      <h4 class="title">Border Radius CSS Generator</h4>
+      <div class="row justify-content-between">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+          <div class="left">
+            <p>All Corners <input type="range" step="1" min="0" max="200" value="0" class="all"></p>
+            <p>Top-Left Corner <input type="range" step="1" min="0" max="200" value="0" class="top-left">
+            </p>
+            <p>Top-Right Corner <input type="range" step="1" min="0" max="200" value="0" class="top-right">
+            </p>
+            <p>Bottom-Left Corner <input type="range" step="1" min="0" max="200" value="0" class="bottom-left">
+            </p>
+            <p>Bottom-Right Corner <input type="range" step="1" min="0" max="200" value="0" class="bottom-right">
+            </p>
+            <p>Border-Width <input type="range" step="1" min="0" max="50" value="0" class="border-width">
+            </p>
+            <p>Border-Color <input type="color" class="border-color"></p>
+            <p>Border-Style
+              <select name="" id="" class="border-style">
+                <option value="solid">solid</option>
+                <option value="dotted">dotted</option>
+                <option value="dashed">dashed</option>
+              </select>
+            </p>
+            <p>Background-Color <input type="color" class="bg-color"></p>
+            <button class="reset">Reset</button>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+          <div class="right">
+            <div class="block"></div>
+            <textarea name="" id="" disabled></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="socials">
+      <a href="https://vk.com/edjalilov_dev"><i class="fab fa-vk"></i></a>
+      <a href="https://www.instagram.com/edjalilov_dev/?hl=ru"><i class="fab fa-instagram"></i></a>
+      <a href="https://t.me/edjalilov_dev"><i class="fab fa-telegram"></i></a>
+    </div>
+  </div>
+
+
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/generator.js"></script>
+</body>
+
+</html>
