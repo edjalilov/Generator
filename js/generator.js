@@ -81,7 +81,7 @@ function topRight() {
 }
 
 function bottomLeft() {
-  block.style.borderBottomLeftRadius = this.value + 'px'
+  block.style.borderBottomLeftRadius = this.value + 'px';
   if (width.value > 0) {
     text.innerHTML =
       'border-radius: ' + tLeft.value + 'px ' + tRight.value + 'px ' + this.value + 'px ' + bRight.value + 'px; \n' +
