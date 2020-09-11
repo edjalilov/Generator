@@ -72,24 +72,3 @@ button:hover {
     background: #15628f;
     color: #fff;
 }
-
-.socials {
-    text-align: center;
-    font-size: 43px;
-    margin-top: 30px;
-}
-
-.socials .fab {
-    margin: 0 20px;
-    transition: 0.5s;
-    color: #fff;
-    background: #1f9ee7;
-    height: 65px;
-    width: 65px;
-    line-height: 65px;
-    border-radius: 50%;
-}
-
-.socials .fab:hover {
-    transform: scale(1.2);
-}
